@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <section className="hero-container w-full h-[60vh] grid grid-cols-1 grid-rows-1 overflow-hidden">
+    <section className="hero-container w-full h-[50vh] grid grid-cols-1 grid-rows-1 overflow-hidden">
 
       {/* Background Image */}
       <img
