@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <section className="hero-container w-full h-[50vh] grid grid-cols-1 grid-rows-1 overflow-hidden">
+    <section className="hero-container w-full md:h-[50vh] grid grid-cols-1 grid-rows-1 overflow-hidden ">
 
       {/* Background Image */}
       <img
@@ -12,9 +12,9 @@ const Main = () => {
       />
 
       {/* Hero Content */}
-      <div class="col-start-1 row-start-1 z-10 flex flex-col ml-12 max-w-[38%] gap-3 items-start justify-center text-center px-6">
+      <div class="col-start-1 row-start-1 z-10 flex flex-col md:ml-12 md:max-w-[38%] max-w-[30vh] gap-3 items-start justify-center text-center md:px-6 ml-5 md:py-0 py-6">
 
-        <h2 class="text-3xl md:text-5xl font-bold text-slate-900 text-start">
+        <h2 class="text-2xl md:text-5xl  font-bold text-slate-900 text-start md:max-w-full max-w-[25vh]">
           Create Professional Invoices in Seconds
         </h2>
 
@@ -22,7 +22,7 @@ const Main = () => {
           Create professional invoices in seconds, hoxs and complete imports and partners
         </p>
 
-        <button class="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow transition-colors">
+        <button class="cursor-pointer md:mt-6 mt-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow transition-colors">
           Get Started
         </button>
 
