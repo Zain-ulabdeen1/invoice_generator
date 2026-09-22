@@ -40,7 +40,7 @@ body {
 
 @keyframes move {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-90%);
     /* Added 'px' */
   }
 
