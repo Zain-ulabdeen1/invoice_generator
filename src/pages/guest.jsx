@@ -31,7 +31,7 @@ const guest = () => {
                     </div>
                     <div className='flex gap-6 items-center justify-center'>
                         <button className='border-2 border-blue-300 cursor-pointer md:block hidden text-blue-700 px-4 py-1 rounded-[8px]'>Sign In/ Register</button>
-                        <button className='border-2 border-blue-300 text-white cursor-pointer bg-blue-700 px-1 py-1 md:px-4 md:py-2 rounded-[8px]'>Download <span className='md:block hidden'>PDF</span></button>
+                        <button className='flex gap-1 border-2 border-blue-300 text-white cursor-pointer bg-blue-700 px-1 py-1 md:px-4 md:py-2 rounded-[8px]'>Download <span className='md:block hidden'>PDF</span></button>
                         <button className='md:flex  hidden items-center gap-1 text-gray-700 text-xl gap-1 cursor-pointer'>
                             <LuPrinter />
                             Print</button>
@@ -53,10 +53,10 @@ const guest = () => {
                 <div className='flex justify-center items-center gap-2 bg-[#F2F3F7]'>
                     <button
                         onClick={() => setshowSection("addInfo")}
-                        className={`px-8 py-4 inter-normal flex cursor-pointer transition-all duration-150 items-center gap-2 ${showSection === "addInfo" && "bg-[#D4E4F3] text border-blue-600 border-b-4"}`}> <Edit className={`${showSection === "addInfo" && "text-blue-400"}`} /> Add Information</button>
+                        className={`md:px-8 px-4 md:py-4 py-2 inter-normal flex cursor-pointer transition-all duration-150 items-center gap-2 ${showSection === "addInfo" && "bg-[#D4E4F3] text border-blue-600 border-b-4"}`}> <Edit className={`${showSection === "addInfo" && "text-blue-400"}`} /> Add Information</button>
                     <button
                         onClick={() => setshowSection("preview")}
-                        className={`px-8 py-4 inter-normal flex cursor-pointer transition-all duration-150 items-center gap-2 ${showSection === "preview" && "bg-[#D4E4F3] text border-blue-600 border-b-4"}`}> <Eye /> Preview Invoice</button>
+                        className={`md:px-8 px-4 md:py-4 py-2 inter-normal flex cursor-pointer transition-all duration-150 items-center gap-2 ${showSection === "preview" && "bg-[#D4E4F3] text border-blue-600 border-b-4"}`}> <Eye /> Preview Invoice</button>
                 </div>
                 <div className='min-h-[83vh] bg-[#E8ECEF]'>
                     {
